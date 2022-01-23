@@ -5,7 +5,8 @@ body{
     font-family: sans-serif;
 }
 .nav,
-.hero{
+.hero,
+.footer{
     background-color: #1f2937;
 }
 .nav{
@@ -52,20 +53,16 @@ a {
     flex:1;
     gap:5px;
 }
-.button{
+.button,
+.action-button{
     background-color:#3882f6;
     padding: 5px 16px;
     border-radius: 8px;
     border-width: 0;
     width: 20%;
     color: white;
+  
 }
-
-  button.continue {
-    background: royalblue;
-    border: 1px solid royalblue;
-    color: white;
-  }
 .hero-right{
     display: flex;
     flex:1;
@@ -106,7 +103,58 @@ a {
     flex-direction: column;
     align-items: center;
     gap:10px;
+    margin: 15px 0px;
 }
 .text{
     max-width: 150px;
+    text-align:center
+}
+.quotes{
+    background-color: #e5e7eb;
+    padding:80px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.author{
+    font-weight: bold;
+    text-align: right;
+}
+.action{
+  display: flex;
+  justify-content:space-between;
+  padding: 20px;
+  background-color: #3882f6;
+  margin:40px;
+  border-radius: 6px;
+  align-items: center;
+  color:white;
+}
+.action-bold{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.action-right{
+    display:flex;
+}
+.action-button{
+    flex-shrink:0;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    height:32px;
+    width:100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-weight: lighter;
+    padding:20px;
+    font-size: 14px;
 }
